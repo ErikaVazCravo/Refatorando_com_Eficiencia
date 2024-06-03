@@ -70,7 +70,7 @@ Abaixo adicionamos algumas sugestões de uso e prompts para te auxiliar na resol
         return opcoes[texto](texto)
     else:
         # TODO: Retorne uma mensagem de opção inválida se o texto não estiver nas opções
-        return "Opção inválida"
+        return "Opção inválida."
 
     def desafio():
       # Solicita uma entrada do usuário
